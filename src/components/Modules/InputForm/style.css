@@ -1,0 +1,40 @@
+.form {
+  width: 100%;
+}
+
+.field-container {
+  margin: 0 0 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.field-container >div {
+  width: 100% !important;
+  max-width: 330px;
+}
+
+.submit-button {
+  display: flex !important;
+  margin: 0 auto !important;
+  min-width: 200px !important;
+  height: 40px !important;
+  border-radius: 40px !important;
+  text-transform: uppercase !important;
+}
+
+.submit-button:disabled {
+  background-color: #ccc !important;
+  color: #000 !important;
+}
+
+.tnc-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center ;
+  margin: 0 0 40px !important;
+}
+
+.tnc-checkbox .tnc {
+  color: #10ff8d !important;
+}
